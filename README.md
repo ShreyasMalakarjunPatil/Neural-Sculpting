@@ -101,3 +101,7 @@ The directory "results" consists of the trained models and masks.
 The directory "shell" consists of commands to run module detection on those models and generate the NN visualizations.
 
 For detailed list of hyper-parameters used for each of the experiments please refer to the directory "shell" and the commands.
+
+## Contributing
+
+Please feel free to contact us or submit issues regarding suggestions for improving the repository or any specific implementation details you wish to know about.
