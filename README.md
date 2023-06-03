@@ -6,6 +6,10 @@ This repository is the official implementation of the paper: https://arxiv.org/a
 Example hierarchically modular task and uncovered structure through Neural Sculpting
 
 
+https://github.com/ShreyasMalakarjunPatil/Neural-Sculpting/assets/56805727/0db95811-503b-45da-b15a-29e140186a0d
+
+
+
 To install requirements run:
 
 ```setup
