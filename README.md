@@ -49,7 +49,7 @@ python3 main.py --experiment prune --task boolean --dataset_path ./datasets/exem
 
 The directory detection_pipeline consist of different components used in the module detection method proposed in the paper.
 
-* cluster.py -> runs the clustering algorithms and fins the optimal number of clusters on the basis of modularity metric and unit separability tests.
+* cluster.py -> runs the clustering algorithms and finds the optimal number of clusters on the basis of modularity metric and unit separability tests.
 * merge_clusters.py -> takes as input the clusters obtained and merges them on the basis of merging_threshold provided through arguments
 * visualize.py -> considers the final set of modules and plots visualizations by rearanging the unit positions on the basis of their modules and layers
 * utils -> consists of various utility functions including modularity metric computation, adjacency matrix computation, clustering eature vector computation and unit separability tests
