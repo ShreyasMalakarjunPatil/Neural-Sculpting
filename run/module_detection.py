@@ -12,6 +12,7 @@ import os
 def get_unit_edge_model(args,dev):
     direct_models, direct_masks, direct_results = load.create_directory(args)
     args.pruning_gradient = args.pruning_gradient[0]
+
     with open(direct_results + 'prune' +args.unit_pruning_metric + args.task + str(args.lr) +str(args.batch_size)+str(args.epochs) + str(args.unit_pruning_gradient) + str(args.pruning_gradient) + str(None) + str(args.gamma) +'_Results'+ str(args.seed) + '.pkl', "rb") as fout:
         re = pkl.load(fout)
     args.prune_perc = re[-1]

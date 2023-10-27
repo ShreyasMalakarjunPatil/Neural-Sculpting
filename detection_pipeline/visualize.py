@@ -170,7 +170,7 @@ def visualize(A, partition, path, arch,  original_arch, args):
     num = len(np.unique(p))
     mod = args.modularity[1:-1]
 
-    G = nx.from_numpy_matrix(A)
+    G = nx.from_numpy_array(A)
     pos, n = define_layered_position(arch, partition, mod)
 
     X_max, Y_max, X_min, Y_min = get_ellipse_coord(partition, pos)

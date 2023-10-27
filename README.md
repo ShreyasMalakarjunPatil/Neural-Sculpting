@@ -1,7 +1,7 @@
 # Neural Sculpting: Uncovering hierarchically modular task structure through pruning and network analysis
 
 
-This repository is the official implementation of the paper: https://arxiv.org/abs/2305.18402
+This repository is the official implementation of the paper accepted at NeurIPS 2023: https://arxiv.org/abs/2305.18402
 
 Example hierarchically modular task and uncovered structure through Neural Sculpting
 
